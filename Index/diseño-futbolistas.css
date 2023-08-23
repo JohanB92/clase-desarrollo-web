@@ -137,7 +137,6 @@ body {
     font-family: "Comic Sans MS"; /* tipo de fuente */
     letter-spacing: 3px; /* Espacio entre las letras */
     font-weight: bold; /* negrilla */
-    background-color: red;
 }
 .redes {
     display: flex;
@@ -205,5 +204,4 @@ tr:nth-child(9) {
 .imagenes-cr7 img {
     width: 250px; 
     margin: 10px;
-    background-color: red;
 }

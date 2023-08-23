@@ -1,5 +1,26 @@
 <!DOCTYPE html>
-<html lang="en"><!-- 
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bienvenido</title>
+    <link rel="stylesheet" href="estilo-index.css" />
+    <link rel="icon" href="/Imagenes/logobalon.png" />
+  </head>
+  <body>
+    <div class="bienvenida">
+      <h1>Bienvenido a la web del fútbol</h1>
+      <p>Gracias por visitarnos. ¿Estás listo para registrarte?</p>
+      <a href="formulario.html" class="boton-registro">Registrarse</a> <br />
+      <img
+        src="https://media1.giphy.com/media/W2tTsXj3xSecCZweVq/giphy.gif?
+        cid=6c09b9529ctxdpiw1e07b064lu5e9la6vsc6p5g44a6yedo8&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s"
+        alt="Animación GIF"
+      />
+    </div>
+  </body>
+</html>
+<!-- 
   para subir a git
   git commit -m "mensaje"
   git add .
@@ -7,49 +28,3 @@
   git pull
   git push
  -->
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="estilo-formulario.css" />
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/88/88450.png" />
-    <title>pruebita formulario</title>
-  </head>
-  <body>
-    <div class="formulario">
-      <h1>Ingresa tus datos</h1>
-      <form id="miFormulario">
-        <div class="campo">
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" required />
-        </div>
-        <div class="campo">
-          <label for="apellido">Apellido:</label>
-          <input type="text" id="apellido" name="apellido" required />
-        </div>
-        <div class="campo">
-          <label for="correo">Correo Electrónico:</label>
-          <input type="email" id="correo" name="correo" required />
-        </div>
-        <div class="campo">
-            <label for="celular">Celular:</label>
-            <input type="tel" id="celular" name="celular" inputmode="numeric" pattern="[0-9]+" title="Solo se permiten números" required>
-        </div>
-        <div class="campo">
-          <label for="fecha">Fecha de Nacimiento:</label>
-          <input type="date" id="fecha" name="fecha" required />
-        </div>
-        <div class="boton">
-            <button type="submit">guardadoooo</button>
-        </div>
-      </form>
-    </div>
-
-    <div id="popup" class="popup">
-      <div class="popup-content">
-        <p>Datos guardados exitosamente</p>
-      </div>
-    </div>
-
-    <script src="/JS/script-formulario.js"></script>
-  </body>
-</html>

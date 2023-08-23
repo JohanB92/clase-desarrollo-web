@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS";
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para la página de bienvenida */
+.bienvenida {
+    text-align: center;
+    padding-top: 150px; 
+}
+
+.boton-registro {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.boton-registro:hover {
+    background-color: #0056b3;
+}
+.bienvenida img {
+    width: 300px; /* Cambia el tamaño según tu preferencia */
+    height: auto; /* Esto mantendrá la proporción del GIF */
+}
