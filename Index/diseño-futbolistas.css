@@ -1,0 +1,207 @@
+/* DISEÑO PAGINA DE FUTBOLISTAS */
+
+#titulo {
+    color: #393939;
+    font-size: 90px; /* tamaño de la fuente */
+    text-align: center; /* alineacion del texto */
+    margin: 2%;
+    padding: 50px;
+    font-weight: bold; /* negrilla */
+    font-family: "Comic Sans MS"; /* tipo de fuente */
+    letter-spacing: 3px; /* Espacio entre las letras */
+}
+body {
+    background: linear-gradient(to bottom, #ffe551, rgba(0, 68, 255, 0.404)); /* Colores degradados */
+    margin: 0;
+    padding: 0;
+}
+
+#linea {
+    border-bottom: 4px solid #4e4e4e; /* Línea divisoria  */
+    margin: 0px 0; /* Espacio antes y después de la línea */
+}
+
+.navbar {
+    background-color: #3C3C3C; /* Color de fondo de la barra de navegación */
+    font-size: 24px; /* tamaño de la fuente */
+    color: #CCCCCC; /* Color del texto en la barra de navegación */
+    padding: 10px 0; /* Espacio interno en la barra de navegación */
+    font-family: "Comic Sans MS";
+    border: 4px solid black; /* Agrega un borde inferior de 2px con el color verde (#99cc00) */
+    letter-spacing: 3px; /* Espacio entre las letras */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que la navbar esté encima de otros elementos */
+}
+
+.navbar nav ul {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    text-decoration:none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.navbar nav ul li a:hover {
+    color: #99cc00; /* Cambia el color al pasar el cursor sobre los enlaces */
+}
+#logo-navbar  {
+    width: 30px; /* Ajusta el tamaño según lo necesites */
+    height: auto;
+}
+#equipos {
+    color: #393939;
+    font-size: 40px; /* tamaño de la fuente */
+    text-align: center; /* alineacion del texto */
+    margin-top: 0px; /* margen superior  */
+    margin-bottom: 0px;  /* margen inferior */
+    font-family: "Comic Sans MS"; /* tipo de fuente */
+    letter-spacing: 3px; /* Espacio entre las letras */
+    
+}
+.imagen-con-texto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px; /* Agrega espacio debajo del contenedor */
+}
+
+.imagen-con-texto img {
+    width: 100px; /* O un valor en píxeles o porcentaje */
+    height: auto; /* Para mantener la proporción de la imagen */
+    margin: 10px; /* Margen alrededor de la imagen */
+    padding: 5px; /* Espaciado interno */
+}
+#mas-info {
+    font-size: 13px; /* tamaño de la fuente */
+    text-align: center; /* alineacion del texto */
+    font-family: "Comic Sans MS"; /* tipo de fuente */
+    margin: 0px; /* margen superior  */
+    color: #393939;
+}
+#jugadores {
+    color: #393939;
+    font-size: 70px; /* tamaño de la fuente */
+    text-align: center; /* alineacion del texto */
+    margin-top: 60px; /* margen superior  */
+    margin-bottom: 60px;  /* margen inferior */
+    font-family: "Comic Sans MS"; /* tipo de fuente */
+    letter-spacing: 3px; /* Espacio entre las letras */
+}
+.contenedor-horizontal {
+    display: flex; /* Utiliza Flexbox para alinear horizontalmente los elementos */
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+}
+
+.contenedor-horizontal img {
+    width: 350px; /* Ajusta el ancho de la imagen */
+    margin-right: 20px; /* Agrega un espacio entre la imagen y el texto */
+}
+#texto-ronaldinho {
+    color: #393939;
+    margin-left: 7%;
+    margin-right: 25%;
+    font-size: 25px; /* tamaño de la fuente */
+    font-family: "Comic Sans MS"; /* tipo de fuente */
+    
+}
+#masinfo {
+    font-size: 13px; /* tamaño de la fuente */
+    text-align: right; /* alineacion del texto */
+    font-family: "Comic Sans MS"; /* tipo de fuente */
+    margin-right: 10%; /* margen superior  */
+    color: #393939;
+}
+#lineadelgada {
+    border-bottom: 2px solid #4e4e4e; /* Línea divisoria  */
+    margin: 10px 0; /* Espacio antes y después de la línea */
+}
+#titulo-jugador {
+    color: #393939;
+    font-size: 30px; /* tamaño de la fuente */
+    text-align: center; /* alineacion del texto */
+    margin-top: 10%; /* margen superior  */
+    margin-bottom: 0;  /* margen inferior */
+    font-family: "Comic Sans MS"; /* tipo de fuente */
+    letter-spacing: 3px; /* Espacio entre las letras */
+    font-weight: bold; /* negrilla */
+}
+.redes {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px; /* Agrega espacio debajo del contenedor */
+    background-color: #3C3C3C;
+    
+}
+
+.redes img {
+    width: 70px; /* O un valor en píxeles o porcentaje */
+    height: auto; /* Para mantener la proporción de la imagen */
+    margin-left: 30px; /* Margen alrededor de la imagen */
+    padding: 5px; /* Espaciado interno */
+}
+#titulo-redes {
+        color: white;
+        font-size: 40px; /* tamaño de la fuente */
+        text-align: left; /* alineacion del texto */
+        margin-top: 0px; /* margen superior  */
+        margin-bottom: 0px;  /* margen inferior */
+        font-family: "Comic Sans MS"; /* tipo de fuente */
+        letter-spacing: 3px; /* Espacio entre las letras */
+        margin-left: 30%;  
+}
+.tabla-container {
+    text-align: center;
+    margin: 20px;
+}
+.tabla {
+    border-collapse: collapse;
+    width: 50%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    font-family: "Comic Sans MS";
+    border: 2px solid #333;
+}
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+th[colspan="5"] {
+    background-color: #0400ffd5;
+    font-size: 35px;
+}
+td:hover {
+    background-color: #ff0000be;
+}
+tr:nth-child(1) {
+    background-color: #0099ff; 
+    font-size: 25px;
+}
+tr:nth-child(9) {
+    background-color: #0099ff; 
+    font-size: 25px;
+}
+.imagenes-cr7 {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.imagenes-cr7 img {
+    width: 250px; 
+    margin: 10px;
+}

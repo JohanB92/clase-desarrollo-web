@@ -1,0 +1,27 @@
+/* Estilos para la tabla */
+.custom-table {
+    border-collapse: collapse;
+    padding: 5px;
+    width: 70%;
+    border-radius: 10px; /* Agregar bordes redondeados */
+    border: 2px solid red; /* Agregar bordes rojos */
+}
+
+.div-custom-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.custom-table th {
+    background-color: #f2f2f2;
+}
