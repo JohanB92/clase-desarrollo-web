@@ -58,7 +58,7 @@ body, html {
   }
   
   .section-title {
-    font-size: 46px;
+    font-size: 44px;
     margin: 10px;
     color: #ff0000;
     text-shadow:
@@ -86,3 +86,49 @@ body, html {
     color: #000;
   }
   
+  .navbar {
+    background-color: #3C3C3C; /* Color de fondo de la barra de navegación */
+    font-size: 24px; /* tamaño de la fuente */
+    color: #CCCCCC; /* Color del texto en la barra de navegación */
+    padding: 10px 0; /* Espacio interno en la barra de navegación */
+    font-family: "Comic Sans MS";
+    border: 4px solid black; /* Agrega un borde inferior de 2px con el color verde (#99cc00) */
+    letter-spacing: 3px; /* Espacio entre las letras */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que la navbar esté encima de otros elementos */
+}
+
+.navbar nav ul {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    text-decoration:none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.navbar nav ul li a:hover {
+    color: #99cc00; /* Cambia el color al pasar el cursor sobre los enlaces */
+}
+#logo-navbar  {
+    width: 30px; /* Ajusta el tamaño según lo necesites */
+    height: auto;
+}
+.content {
+  margin-top: 60px; /* Ajusta este valor según la altura de tu barra de navegación */
+  padding: 20px;
+  box-sizing: border-box;
+}
